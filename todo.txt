@@ -1,0 +1,61 @@
+RESPONSIVE v2
+___________________________________________________
+///video montrer jusqua mobile
+///mobile always small
+///valider avec psd
+///valider titre pour 300px  xsmall
+///titre interieur line-height trop intense
+///accueil h2 texte center
+///accueil titre features br
+///accueil Why Choose Vortex Studio margin-top blanc remove
+///accueil Expand Your Simulation Capabilities problem (Mettre BR)
+///Enlever scroll animation si redirection vers accueil
+///Ipad vertical (marge + grande)
+///Use case (ipad) mettre width auto
+///Img width 100%(ipad)
+///Newsletter (ipad) width not 100%
+
+///http://preprod.cm-labs.hpjtest.com/vortex-studio/features/immersive-visualisation-system/  (+ petit titre mobile)
+///http://preprod.cm-labs.hpjtest.com/vortex-studio/applications/training-simulation-providers/  (marge droite)
+Menu filet gris
+Fermer menu clique sur lien
+
+
+DESKTOP
+______________________________
+///.page-header h1{font-size: 50px;line-height: 60px;padding: 0 200px;}
+
+
+///http://cmlabs.dev.hpjtest.com:8006/vortex-studio/applications/training-simulation-providers/
+//////--- Expand Your Simulation Portfolio  MARGIN BOTTOM
+
+///Preloader mobile enlever car non video
+///Changer hamberger size Ipad bug
+
+
+
+
+responsive
+___________________________________________________
+///background vert vs gris
+///Application padding sur text dans image
+///Expand your simulation.... mettre br lg seulement
+///Video - enlever mettre img
+///sticky menu sur mobile --- mettre small par defaut
+///header h1 strong line he..     line-height: 60px;
+///btn blue menu anmation
+Why choose padding validation
+
+
+
+subpage
+----------------------------------
+///h1 :     font-size: 40px; line-height: 50px;
+///image subtitle align bottom
+
+alternate img centrer
+
+///boxes: title center
+
+
+///features/immersive-visulation = titre en bold

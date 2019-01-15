@@ -1,0 +1,52 @@
+// Glyphicons font path
+$icon-font-path: "../../fonts/";
+$bootstrap-sass-asset-helper: true;
+// Grid settings
+$main-sm-columns: 12;
+$sidebar-sm-columns: 4;
+$font-family-base: 'Roboto',
+sans-serif;
+$font-family-publica-extralight: 'PublicatSans-extralight',
+sans-serif;
+$font-family-publica-light: 'PublicatSans-light',
+sans-serif;
+$font-family-publica-bold: 'PublicatSans-bold',
+sans-serif;
+// Colors
+$brand-primary: #4fa345;
+$brand-primary-alterne: #41a0a3;
+$brand-primary-alterne-darker: #398d90;
+$brand-white: #ffffff;
+$brand-black: #000000;
+$brand-gray: #dbdbdb;
+$brand-graylight: #f2f3f4;
+$brand-banner-graylight: #e7e8e9;
+$brand-graydark: #3a3a3a;
+$brand-hr: #898989;
+$text-color: #575756;
+$color-social-facebook: #3b5998;
+$color-social-twitter: #6faedc;
+$color-social-linkedin: #007bb6;
+$color-social-youtube: #ee1c1b;
+$brand-error: red;
+$tooltip-bg: #58595b;
+// Bootstrap override
+$navbar-default-brand-color: $text-color;
+$navbar-default-link-color: $text-color;
+$navbar-default-bg: $brand-white;
+$navbar-default-border: #e2e2e2;
+$navbar-default-link-hover-color: $brand-primary;
+$btn-default-color: $brand-white;
+$btn-default-bg: $brand-primary-alterne;
+$btn-default-border: $brand-primary-alterne;
+// Custom
+$menu-height: 90px;
+// MEDIA QUERIES
+$xl: 1200px;
+$lg: 992px;
+$md: 768px;
+$sm: 576px;
+$xs: 320px;
+$menu-breakpoint: 830px;
+$from: 'min-width';
+$until: 'max-width';

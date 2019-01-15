@@ -1,0 +1,209 @@
+.cml_doc_icon, .cml_doc_icon_recent {
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+
+.cml_doc_icon img, .cml_download_link img, .cml_doc_icon_recent {
+    vertical-align: middle;
+    padding: 4px;
+}
+
+.cml_doc_icon_recent {
+    padding: 8px;
+}
+
+.cml_doc_item, .cml_doc_item_headers {
+	clear: both;
+	margin:10px;
+	padding: 4px;
+	max-width:1100px;
+	box-shadow: 0 0 10px #CCCCCC;
+}
+
+.cml_doc_item_headers {
+	background-color: #52a347;
+	color: #fff;
+	padding-bottom: 8px;
+}
+
+.cml_doc_title, .cml_doc_date, .cml_doc_size, .cml_doc_type, .cml_doc_industry, .cml_doc_region, .cml_doc_title_label, .cml_doc_release_date_label, .cml_doc_type_label, .cml_doc_industry_label, .cml_doc_region_label {
+	padding-top: 8px;
+	margin-left: 8px;
+	float: left;
+	width: 100px;
+	cursor: pointer;
+}
+
+.cml_doc_title_label:hover, .cml_doc_release_date_label:hover, .cml_doc_type_label:hover, .cml_doc_industry_label:hover, .cml_doc_region_label:hover {
+	color: #000;
+}
+
+.cml_doc_title_label, .cml_doc_release_date_label, .cml_doc_type_label, .cml_doc_industry_label, .cml_doc_region_label {
+	font-weight: bold;
+}
+
+.cml_doc_title_label, .cml_doc_type_label {
+	margin-left: 48px;
+}
+
+.cml_doc_release_date_label {
+	margin-left: 183px;
+}
+
+.cml_doc_industry_label {
+	margin-left: 58px;
+}
+
+.cml_doc_region_label {
+	margin-left: 108px;
+}
+
+.cml_doc_date {
+	width: 140px;
+}
+
+.cml_doc_title {
+	font-weight: bold;
+	width: 275px;
+}
+
+.cml_doc_type {
+	width: 150px;
+}
+
+.cml_doc_size {
+	width: 70px;
+}
+
+.cml_doc_industry {
+	width: 200px;
+}
+
+.cml_download_link {
+	width: 40px;
+	margin-left: 8px;
+	float: left;
+	cursor: pointer;
+}
+
+.cml_doc_image {
+	margin: 12px 24px 0px 0px;
+	float: left;
+	width: 202px;
+	height: 126px;
+	text-align: center;
+}
+
+.cml_doc_image img {
+	max-height: 126px;
+	width: auto;	
+}
+
+.cml_doc_image_border img {
+	border: 1px solid #CCCCCC;
+}
+
+.cml_doc_extra_info {
+	clear: both;
+ 	display: none; 
+	padding-left: 24px;
+	padding-bottom: 12px;
+}
+
+.cml_doc_content {
+	max-width: 1000px;
+	padding-top: 12px;
+}
+
+.cml_doc_search, .cml_doc_industry_filter, .cml_doc_types_filter, .cml_doc_region_filter, .cml_doc_sort_filter {
+	width: 200px;
+	float: left;
+	margin-right: 12px;
+}
+
+.cml_doc_industry_filter {
+	width: 300px;
+}
+
+.cml_doc_types_filter {
+	width: 250px;
+}
+
+.cml_doc_search {
+	width: 100%;
+	clear: both;
+}
+
+#cml_doc_search_string {
+	width: 60%;
+}
+
+#runsearch, #clearsearch {
+	margin-left: 12px;
+}
+
+.highlight_word {
+    background-color: yellow;
+    display: inline;
+}
+
+#cml_doc_industry_select, #cml_doc_types_select, #cml_doc_sort_select, #cml_doc_region_select {
+	width: 100%;
+}
+
+.cml_doc_filters select {
+	margin: 0 0 10px;
+}
+
+.doccount {
+	padding-left: 12px;
+}
+
+.nextpage, .cml_download_text_link, .cml_doc_edit, .view_all {
+	color: #fff;
+	display: inline-block;
+	padding: 5px 25px 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 1px 8px 2px;
+	margin-bottom: 7px;
+	background-color: #52a347;
+	-ms-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.nextpage, .view_all {
+	float: none;
+	margin: 12px 0px 0px 12px;
+	cursor: pointer;
+}
+
+.view_all a {
+	color: #fff;
+}
+
+.cml_download_text_link, .cml_doc_edit {
+	float: none;
+	margin-top: 12px;
+}
+
+.cml_doc_edit {
+	margin-left: 12px;
+}
+
+.cml_download_text_link a, .cml_doc_edit a {
+	color: #fff;
+}
+
+.cml_doc_title_recent {
+	padding: 6px;
+}
+
+.cml_doc_output_recent p {
+	overflow: hidden;
+}

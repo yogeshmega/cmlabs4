@@ -1,0 +1,211 @@
+.container-features {
+    overflow: hidden;
+    background: transparent url('../../images/producthomepage/vortexstudio/features_bg.jpg') no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    color: $brand-white;
+    .container-fluid-features {
+        margin: 0 -15px;
+    }
+    .row-header {
+        padding: 80px 0;
+        font-weight: 300;
+    }
+    .col-container-feature {
+        margin-bottom: 15px;
+        padding: 0 7px !important;
+        width: 50% !important;
+        margin-right: -1px !important;
+        @media (max-width: 991px) {
+            padding: 0 !important;
+            width: 100% !important;
+            margin-right: -1px !important;
+        }
+        // GAUCHE
+        &:nth-child(odd) {
+            .container-feature {
+                .container-feature-content {
+                    left: 50px;
+                }
+                .container-feature-mask {
+                    left: 0;
+                    &:after {
+                        left: auto;
+                        right: 0;
+                        transform-origin: 100% 100%;
+                    }
+                }
+                &.active {
+                    .container-feature-content {
+                        left: calc(100% + 15px);
+                        background-position: 100% 50%;
+                        .container-feature-content-txt {
+                            text-align: left;
+                            left: 0;
+                            padding-left: 46px;
+                        }
+                    }
+                }
+            }
+        }
+        // DROIT
+        &:nth-child(even) {
+            .container-feature {
+                .container-feature-content {
+                    left: calc(50vw + 50px);
+                }
+                .container-feature-mask:after {
+                    transform-origin: 0% 100%;
+                }
+                &.active {
+                    .container-feature-content {
+                        left: calc(-50vw + 15px);
+                        background-position: 0% 50%;
+                        .container-feature-content-txt {
+                            text-align: right;
+                            left: auto;
+                            right: 0;
+                            padding-right: 46px;
+                        }
+                        .container-feature-content-close-btn {
+                            left: auto;
+                            right: -50px;
+                        }
+                    }
+                }
+            }
+        }
+        .container-feature {
+            position: relative;
+            // height: 100%;
+            padding: 40px 42px;
+            // background-color: rgba(0, 0, 0, 0.3);
+            &:hover {
+                .container-feature-mask {
+                    opacity: 1;
+                    z-index: 2;
+                    &::after {
+                        opacity: 1;
+                    }
+                }
+            }
+            h2 {
+                margin: 0;
+            }
+            h3 {
+                // padding-left: 47%;
+                position: relative;
+                color: $brand-white;
+                font-family: $font-family-publica-bold;
+                font-size: 32px;
+                span {
+                    display: inline-block;
+                    width: 84px;
+                    // margin-left: -90px;
+                    // margin-right: -4px;
+                    font-family: $font-family-publica-extralight;
+                    font-size: 116px;
+                }
+                strong {
+                    display: inline-block;
+                    padding-left: 24px;
+                    border-left: 1px solid $brand-white;
+                    width: calc(100% - 100px);
+                }
+            }
+            .container-feature-content {
+                position: absolute;
+                top: 0;
+                right: -120%;
+                width: calc(100% + 15px);
+                margin-left: -15px;
+                height: 100%;
+                padding: 0 46px;
+                background: $brand-white url('../../images/producthomepage/vortexstudio/feature_sub_1.jpg') no-repeat 100% 50%;
+                background-size: auto 100%;
+                color: $text-color;
+                font-weight: 300;
+                font-size: 16px;
+                opacity: 0;
+                z-index: -1;
+                transition: all 500ms;
+                .container-feature-content-txt {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    width: 420px;
+                    font-weight: 300;
+                    p {
+                        max-width: 420px;
+                        margin-bottom: 22px;
+                        font-size: 18px;
+                    }
+                }
+                .container-feature-content-close-btn {
+                    display: block;
+                    width: 50px;
+                    height: 50px;
+                    background-color: $brand-white;
+                    position: absolute;
+                    bottom: 0;
+                    left: -50px;
+                    text-align: center;
+                    line-height: 50px;
+                    font-size: 26px;
+                    cursor: pointer;
+                    color: $text-color;
+                    text-decoration: none;
+                    &:after {
+                        content: '\e805';
+                        font-family: 'icons';
+                    }
+                    img {
+                        transform: rotate(45deg);
+                    }
+                }
+            }
+            &.active {
+                .container-feature-content {
+                    opacity: 1;
+                    left: 0;
+                    z-index: 9;
+                    transition: all 500ms;
+                }
+                .container-feature-mask:after {
+                    transform: scale(0);
+                }
+            }
+        }
+        .container-feature-mask {
+            position: absolute;
+            top: 0;
+            left: 14px;
+            width: calc(100% + 15px);
+            margin-left: -15px;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+            z-index: 0;
+            opacity: 0.5;
+            transition: all 500ms;
+            &:after {
+                opacity: 0;
+                content: '\e803';
+                font-family: 'icons';
+                display: block;
+                width: 50px;
+                height: 50px;
+                background-color: $brand-white;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                color: $text-color;
+                text-align: center;
+                line-height: 50px;
+                font-size: 26px;
+                transform-origin: 0% 100%;
+                transition: all 500ms;
+            }
+        }
+    }
+}

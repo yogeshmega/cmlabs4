@@ -1,0 +1,30 @@
+.btn {
+    padding: 10px 18px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-family: $font-family-publica-bold;
+    transition: all 500ms;
+    &.btn-default {
+        font-size: 14px;
+        &:hover {
+            background-color: $brand-primary-alterne-darker;
+            border-color: $brand-primary-alterne-darker;
+        }
+    }
+    &.btn-inverse {
+        background-color: $brand-white;
+        color: $brand-primary-alterne;
+        &:hover {
+            color: $brand-white;
+            background-color: $brand-primary;
+            border-color: $brand-primary;
+        }
+    }
+    &.btn-lg {
+        font-size: 17px;
+    }
+    &.btn-submit {
+        background-color: $brand-primary;
+        color: $brand-white;
+    }
+}

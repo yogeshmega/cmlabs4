@@ -1,0 +1,103 @@
+@media screen and (max-width: 767px) {
+    header.navbar.sticky {
+        .navbar-brand img {
+            margin-top: 4px;
+        }
+    }
+    .display-table-cell {
+        float: none !important;
+    }
+    .header.navbar {
+        position: absolute;
+    }
+    .producthomepage .img-product-homepage {
+        margin-top: 0;
+    }
+    .page-header,
+    .cs-content.producthomepage {
+        height: auto;
+        padding: 0 0 60px;
+        overflow: auto;
+        background-color: $brand-primary;
+        &.has-video {
+            height: auto !important;
+            background-color: $brand-primary;
+        }
+        video,
+        .video-masque {
+            display: none;
+        }
+        .container,
+        video {
+            position: static;
+            transform: none;
+        }
+        .video-loading-container {
+            display: none;
+        }
+    }
+    .producthomepage .container-features .col-container-feature .container-feature h3 strong {
+        //width: 80%;
+        br {
+            display: none;
+        }
+    }
+    .producthomepage .container-use-cases {
+        .nav li {
+            display: block;
+            text-align: center;
+            &:after {
+                display: none;
+            }
+            &:before {
+                display: block;
+            }
+        }
+    }
+    .page-template-template-features .container-subfeatures .subfeatures-header,
+    .page-template-template-applications .container-subfeatures .subfeatures-header {
+        margin-bottom: 0;
+    }
+    // FOOTER
+    .footer-bloc-adresse,
+    .footer-bloc-contactinfo {
+        margin-bottom: 32px;
+    }
+    footer .footer-infolettre .input-group {
+        width: 100%;
+    }
+    // PRODUCT Homepage
+    .producthomepage #applicationsCarousel .carousel-control {
+        top: 100px;
+    }
+    // FEATURES
+    .page-template-template-features,
+    .page-template-template-applications {
+        .container-features-subheader {
+            //padding: 0;
+            .display-table-cell {
+                margin-right: 0;
+                .txt-content {
+                    padding: 0 15px;
+                }
+            }
+        }
+        .container-subfeatures .row.alternate-order {
+            margin-top: 60px;
+        }
+    }
+    .container-productversion-cta .btn {
+        margin-left: 0;
+    }
+    .page-template-template-applications,
+    .page-template-template-features {
+        .page-header {
+            h1 {
+                strong {
+                    font-size: 40px;
+                    line-height: 50px;
+                }
+            }
+        }
+    }
+}

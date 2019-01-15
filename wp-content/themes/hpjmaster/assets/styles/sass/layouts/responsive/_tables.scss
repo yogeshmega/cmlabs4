@@ -1,0 +1,28 @@
+/*** tableaux responsives *****/
+
+@media screen and (max-width: 768px) {
+    .responsive-table {
+        thead {
+            display: none;
+        }
+        tbody {
+            tr td {
+                display: block;
+                padding: 10px;
+                &:first-child {
+                    font-weight: bold;
+                    background: #fff;
+                }
+                &:before {
+                    content: attr(data-th);
+                    font-weight: bold;
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: 35%;
+                    word-wrap: break-word;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+}

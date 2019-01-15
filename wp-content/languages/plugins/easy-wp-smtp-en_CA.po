@@ -1,0 +1,385 @@
+# Translation of Plugins - Easy WP SMTP - Development (trunk) in English (Canada)
+# This file is distributed under the same license as the Plugins - Easy WP SMTP - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-08-07 17:20:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_CA\n"
+"Project-Id-Version: Plugins - Easy WP SMTP - Development (trunk)\n"
+
+#: easy-wp-smtp-admin-menu.php:306
+msgid "STARTTLS"
+msgstr "STARTTLS"
+
+#: easy-wp-smtp-admin-menu.php:305
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
+
+#. Author of the plugin/theme
+msgid "wpecommerce, alexanderfoxc"
+msgstr "wpecommerce, alexanderfoxc"
+
+#: easy-wp-smtp-admin-menu.php:446
+msgid "Hide Debug Log"
+msgstr "Hide Debug Log"
+
+#: easy-wp-smtp-admin-menu.php:436 easy-wp-smtp-admin-menu.php:444
+msgid "Show Debug Log"
+msgstr "Show Debug Log"
+
+#: easy-wp-smtp-admin-menu.php:425
+msgid "Test email was successfully sent. No errors occured during the process."
+msgstr "Test email was successfully sent. No errors occurred during the process."
+
+#: easy-wp-smtp-admin-menu.php:422
+msgid "Following error occured when attempting to send test email:"
+msgstr "Following error occured when attempting to send test email:"
+
+#: easy-wp-smtp-admin-menu.php:381
+msgid "When enabled, your SMTP password is stored in the database using AES-256 encryption."
+msgstr "When enabled, your SMTP password is stored in the database using AES-256 encryption."
+
+#: easy-wp-smtp-admin-menu.php:377
+msgid "Encrypt Password"
+msgstr "Encrypt Password"
+
+#: easy-wp-smtp-admin-menu.php:179
+msgid "Your PHP version is %s, encryption function requires PHP version 5.3.0 or higher."
+msgstr "Your PHP version is %s, encryption function requires PHP version 5.3.0 or higher."
+
+#: easy-wp-smtp-admin-menu.php:174
+msgid "PHP OpenSSL extension is not installed on the server. It is required for encryption to work properly. Please contact your server administrator or hosting provider and ask them to install it."
+msgstr "PHP OpenSSL extension is not installed on the server. It is required for encryption to work properly. Please contact your server administrator or hosting provider and ask them to install it."
+
+#: easy-wp-smtp-admin-menu.php:56
+msgid "PHP OpenSSL extension is not installed on the server. It's required by Easy WP SMTP plugin to operate properly. Please contact your server administrator or hosting provider and ask them to install it."
+msgstr "PHP OpenSSL extension is not installed on the server. It's required by Easy WP SMTP plugin to operate properly. Please contact your server administrator or hosting provider and ask them to install it."
+
+#: easy-wp-smtp-admin-menu.php:283
+msgid "If email's From Name is empty, the plugin will set the above value regardless."
+msgstr "If email's From Name is empty, the plugin will set the above value regardless."
+
+#: easy-wp-smtp-admin-menu.php:281
+msgid "When enabled, the plugin will set the above From Name for each email. Disable it if you're using contact form plugins, it will prevent the plugin from replacing form submitter's name when contact email is sent."
+msgstr "When enabled, the plugin will set the above From Name for each email. Disable it if you're using contact form plugins, it will prevent the plugin from replacing form submitter's name when contact email is sent."
+
+#: easy-wp-smtp-admin-menu.php:279
+msgid "Force From Name Replacement"
+msgstr "Force From Name Replacement"
+
+#: easy-wp-smtp-admin-menu.php:513
+msgid "rating"
+msgstr "rating"
+
+#: easy-wp-smtp-admin-menu.php:513
+msgctxt "%s is replaced by \"rating\" link"
+msgid "Like the plugin? Please give us a %s"
+msgstr "Like the plugin? Please give us a %s"
+
+#: easy-wp-smtp-admin-menu.php:511
+msgid "Rate Us"
+msgstr "Rate Us"
+
+#: easy-wp-smtp-admin-menu.php:507
+msgid "Support Forum"
+msgstr "Support Forum"
+
+#: easy-wp-smtp-admin-menu.php:507
+msgctxt "%s is replaced by \"Support Forum\" link"
+msgid "Having issues or difficulties? You can post your issue on the %s"
+msgstr "Having issues or difficulties? You can post your issue on the %s"
+
+#: easy-wp-smtp-admin-menu.php:505
+msgid "Support"
+msgstr "Support"
+
+#: easy-wp-smtp-admin-menu.php:337
+msgid "when you click \"Save Changes\", your actual password is stored in the database and then used to send emails. This field is replaced with a gag (#easywpsmtpgagpass#). This is done to prevent someone with the access to Settings page from seeing your password (using password fields unmasking programs, for example)."
+msgstr "when you click \"Save Changes\", your actual password is stored in the database and then used to send emails. This field is replaced with a gag (#easywpsmtpgagpass#). This is done to prevent someone with the access to Settings page from seeing your password (using password fields unmasking programs, for example)."
+
+#: easy-wp-smtp-admin-menu.php:337
+msgid "Note"
+msgstr "Note"
+
+#: easy-wp-smtp-admin-menu.php:391
+msgid "Allows insecure and self-signed SSL certificates on SMTP server. It's highly recommended to keep this option disabled."
+msgstr "Allows insecure and self-signed SSL certificates on SMTP server. It's highly recommended to keep this option disabled."
+
+#: easy-wp-smtp-admin-menu.php:388
+msgid "Allow Insecure SSL Certificates"
+msgstr "Allow Insecure SSL Certificates"
+
+#: easy-wp-smtp-admin-menu.php:466
+msgid "debug log for this test email will be automatically displayed right after you send it. Test email also ignores \"Enable Domain Check\" option."
+msgstr "debug log for this test email will be automatically displayed right after you send it. Test email also ignores \"Enable Domain Check\" option."
+
+#: easy-wp-smtp-admin-menu.php:466
+msgctxt "\"Note\" as in \"Note: keep this in mind\""
+msgid "Note:"
+msgstr "Note:"
+
+#: easy-wp-smtp-admin-menu.php:465
+msgid "You can use this section to send an email from your server using the above configured SMTP details to see if the email gets delivered."
+msgstr "You can use this section to send an email from your server using the above configured SMTP details to see if the email gets delivered."
+
+#: easy-wp-smtp-admin-menu.php:416
+msgid "You have unsaved settings. In order to send a test email, you need to go back to previous tab and click \"Save Changes\" button first."
+msgstr "You have unsaved settings. In order to send a test email, you need to go back to previous tab and click \"Save Changes\" button first."
+
+#: easy-wp-smtp-admin-menu.php:371
+msgid "Block all emails"
+msgstr "Block all emails"
+
+#: easy-wp-smtp-admin-menu.php:263
+msgid "You can request your hosting provider for the SMTP details of your site. Use the SMTP details provided by your hosting provider to configure the following settings."
+msgstr "You can request your hosting provider for the SMTP details of your site. Use the SMTP details provided by your hosting provider to configure the following settings."
+
+#: easy-wp-smtp-admin-menu.php:243
+msgid "SMTP Settings"
+msgstr "SMTP Settings"
+
+#: easy-wp-smtp-admin-menu.php:75
+msgid "Nonce check failed."
+msgstr "Nonce check failed."
+
+#: easy-wp-smtp-admin-menu.php:373
+msgid "When enabled, plugin attempts to block ALL emails from being sent out if domain mismtach."
+msgstr "When enabled, plugin attempts to block ALL emails from being sent out if domain mismtach."
+
+#: easy-wp-smtp-admin-menu.php:360
+msgid "This option is useful when you are using several email aliases on your SMTP server. If you don't want your aliases to be replaced by the address specified in \"From\" field, enter them in this field."
+msgstr "This option is useful when you are using several email aliases on your SMTP server. If you don't want your aliases to be replaced by the address specified in \"From\" field, enter them in this field."
+
+#: easy-wp-smtp-admin-menu.php:359
+msgid "Comma separated emails list. Example value: email1@domain.com, email2@domain.com"
+msgstr "Comma separated emails list. Example value: email1@domain.com, email2@domain.com"
+
+#: easy-wp-smtp-admin-menu.php:356
+msgid "Don't Replace \"From\" Field"
+msgstr "Don't Replace \"From\" Field"
+
+#: easy-wp-smtp-admin-menu.php:352
+msgid "Additional Settings (Optional)"
+msgstr "Additional Settings (Optional)"
+
+#: easy-wp-smtp-admin-menu.php:245 easy-wp-smtp-admin-menu.php:414
+msgid "Test Email"
+msgstr "Test Email"
+
+#: easy-wp-smtp-admin-menu.php:598
+msgid "Log cleared."
+msgstr "Log cleared."
+
+#: easy-wp-smtp-admin-menu.php:590
+msgid "Are you sure want to clear log?"
+msgstr "Are you sure want to clear log?"
+
+#: easy-wp-smtp-admin-menu.php:399
+msgid "Clear Log"
+msgstr "Clear Log"
+
+#: easy-wp-smtp-admin-menu.php:399
+msgid "View Log"
+msgstr "View Log"
+
+#: easy-wp-smtp-admin-menu.php:398
+msgid "Check this box to enable mail debug log"
+msgstr "Check this box to enable mail debug log"
+
+#: easy-wp-smtp-admin-menu.php:395
+msgid "Enable Debug Log"
+msgstr "Enable Debug Log"
+
+#: easy-wp-smtp-admin-menu.php:369
+msgid "Coma-separated domains list. Example: domain1.com, domain2.com"
+msgstr "Coma-separated domains list. Example: domain1.com, domain2.com"
+
+#: easy-wp-smtp-admin-menu.php:367
+msgid "This option is usually used by developers only. SMTP settings will be used only if the site is running on following domain(s):"
+msgstr "This option is usually used by developers only. SMTP settings will be used only if the site is running on following domain(s):"
+
+#: easy-wp-smtp-admin-menu.php:364
+msgid "Enable Domain Check"
+msgstr "Enable Domain Check"
+
+#: easy-wp-smtp-admin-menu.php:244
+msgid "Additional Settings"
+msgstr "Additional Settings"
+
+#: easy-wp-smtp-admin-menu.php:291
+msgid "Optional. This email address will be used in the 'Reply-To' field of the email. Leave it blank to use 'From' email as the reply-to value."
+msgstr "Optional. This email address will be used in the 'Reply-To' field of the email. Leave it blank to use 'From' email as the reply-to value."
+
+#: easy-wp-smtp-admin-menu.php:288
+msgid "Reply-To Email Address"
+msgstr "Reply-To Email Address"
+
+#: easy-wp-smtp-admin-menu.php:488
+msgid "Write your email message"
+msgstr "Write your email message"
+
+#: easy-wp-smtp-admin-menu.php:474
+msgid "Enter the recipient's email address"
+msgstr "Enter the recipient's email address"
+
+#: easy-wp-smtp-admin-menu.php:260
+msgid "SMTP Configuration Settings"
+msgstr "SMTP Configuration Settings"
+
+#: easy-wp-smtp-admin-menu.php:153
+msgid "Please enter a valid email address in the recipient email field."
+msgstr "Please enter a valid email address in the recipient email field."
+
+#: easy-wp-smtp.php:387
+msgid "Please configure your SMTP credentials in the <a href=\"%s\">settings menu</a> in order to send email using Easy WP SMTP plugin."
+msgstr "Please configure your SMTP credentials in the <a href=\"%s\">settings menu</a> in order to send email using Easy WP SMTP plugin."
+
+#. Author URI of the plugin/theme
+msgid "https://wp-ecommerce.net/"
+msgstr "https://wp-ecommerce.net/"
+
+#. Description of the plugin/theme
+msgid "Send email via SMTP from your WordPress Blog"
+msgstr "Send email via SMTP from your WordPress Blog"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wp-ecommerce.net/easy-wordpress-smtp-send-emails-from-your-wordpress-site-using-a-smtp-server-2197"
+msgstr "https://wp-ecommerce.net/easy-wordpress-smtp-send-emails-from-your-wordpress-site-using-a-smtp-server-2197"
+
+#: easy-wp-smtp-admin-menu.php:493
+msgid "Send Test Email"
+msgstr "Send Test Email"
+
+#: easy-wp-smtp-admin-menu.php:485
+msgid "Message"
+msgstr "Message"
+
+#: easy-wp-smtp-admin-menu.php:481
+msgid "Enter a subject for your message"
+msgstr "Enter a subject for your message"
+
+#: easy-wp-smtp-admin-menu.php:478
+msgid "Subject"
+msgstr "Subject"
+
+#: easy-wp-smtp-admin-menu.php:471
+msgid "To"
+msgstr "To"
+
+#: easy-wp-smtp-admin-menu.php:342 easy-wp-smtp-admin-menu.php:404
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: easy-wp-smtp-admin-menu.php:336
+msgid "The password to login to your mail server"
+msgstr "The password to login to your mail server"
+
+#: easy-wp-smtp-admin-menu.php:333
+msgid "SMTP Password"
+msgstr "SMTP Password"
+
+#: easy-wp-smtp-admin-menu.php:329
+msgid "The username to login to your mail server"
+msgstr "The username to login to your mail server"
+
+#: easy-wp-smtp-admin-menu.php:326
+msgid "SMTP Username"
+msgstr "SMTP Username"
+
+#: easy-wp-smtp-admin-menu.php:322
+msgid "This options should always be checked 'Yes'"
+msgstr "This options should always be checked 'Yes'"
+
+#: easy-wp-smtp-admin-menu.php:321
+msgid "Yes"
+msgstr "Yes"
+
+#: easy-wp-smtp-admin-menu.php:320
+msgid "No"
+msgstr "No"
+
+#: easy-wp-smtp-admin-menu.php:318
+msgid "SMTP Authentication"
+msgstr "SMTP Authentication"
+
+#: easy-wp-smtp-admin-menu.php:314
+msgid "The port to your mail server"
+msgstr "The port to your mail server"
+
+#: easy-wp-smtp-admin-menu.php:311
+msgid "SMTP Port"
+msgstr "SMTP Port"
+
+#: easy-wp-smtp-admin-menu.php:307
+msgid "For most servers SSL/TLS is the recommended option"
+msgstr "For most servers SSL/TLS is the recommended option"
+
+#: easy-wp-smtp-admin-menu.php:304
+msgid "None"
+msgstr "None"
+
+#: easy-wp-smtp-admin-menu.php:302
+msgid "Type of Encryption"
+msgstr "Type of Encryption"
+
+#: easy-wp-smtp-admin-menu.php:298
+msgid "Your mail server"
+msgstr "Your mail server"
+
+#: easy-wp-smtp-admin-menu.php:295
+msgid "SMTP Host"
+msgstr "SMTP Host"
+
+#: easy-wp-smtp-admin-menu.php:277
+msgid "This text will be used in the 'FROM' field"
+msgstr "This text will be used in the 'FROM' field"
+
+#: easy-wp-smtp-admin-menu.php:274
+msgid "From Name"
+msgstr "From Name"
+
+#: easy-wp-smtp-admin-menu.php:270
+msgid "This email address will be used in the 'From' field."
+msgstr "This email address will be used in the 'From' field."
+
+#: easy-wp-smtp-admin-menu.php:267
+msgid "From Email Address"
+msgstr "From Email Address"
+
+#: easy-wp-smtp-admin-menu.php:416
+msgid "Notice:"
+msgstr "Notice:"
+
+#: easy-wp-smtp-admin-menu.php:60
+msgid "Easy WP SMTP Settings"
+msgstr "Easy WP SMTP Settings"
+
+#: easy-wp-smtp-admin-menu.php:141
+msgid "Settings are not saved."
+msgstr "Settings are not saved."
+
+#: easy-wp-smtp-admin-menu.php:139
+msgid "Settings saved."
+msgstr "Settings saved."
+
+#: easy-wp-smtp-admin-menu.php:130
+msgid "Please enter a valid port in the 'SMTP Port' field."
+msgstr "Please enter a valid port in the 'SMTP Port' field."
+
+#: easy-wp-smtp-admin-menu.php:85
+msgid "Please enter a valid email address in the 'FROM' field."
+msgstr "Please enter a valid email address in the 'FROM' field."
+
+#: easy-wp-smtp.php:32 easy-wp-smtp.php:51
+msgid "Settings"
+msgstr "Settings"
+
+#. #-#-#-#-#  easy-wp-smtp-code.pot (Easy WP SMTP 1.3.7)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: easy-wp-smtp-admin-menu.php:9
+msgid "Easy WP SMTP"
+msgstr "Easy WP SMTP"

@@ -1,0 +1,138 @@
+.page-template-template-productformsubscription{
+
+  .page-header{
+    h1{font-family: $font-family-publica-bold;}
+  }
+
+  .container-form-container{
+    position: relative;
+    //top: -160px;
+  }
+
+  .form-container{
+    //padding: 40px;
+    //background-color: $brand-gray;
+    text-align: center;
+    font-weight: 300;
+
+    form{
+      margin-top: 60px;
+      text-align: left;
+      font-family: $font-family-publica-light;
+
+      label{
+        width: 100%;
+        font-size: 16px;
+      }
+
+      .wpcf7-form-control-wrap{
+        display: block;
+        margin: 10px 0 10px;
+        .wpcf7-form-control{
+          height: 56px;
+          background-color: $brand-white;
+          border: none;
+          border-radius: 0;
+
+          &.wpcf7-checkbox{
+            background-color: transparent;
+          }
+        }
+
+        .service_interest, .industry_interest {
+          &:after {
+            content: '\e802';
+            font-family: "icons";
+            font-style: normal;
+            font-weight: normal;
+            speak: none;
+            display: inline-block;
+            text-decoration: inherit;
+          }
+        }
+
+        .wpcf7-select{
+          width: 100%;
+          padding-left: 10px;
+        }
+
+        .wpcf7-textarea{
+          width: 100%;
+          height: 200px;
+        }
+      }
+
+      input[type="submit"]{
+        @extend .btn;
+        @extend .btn-default;
+        width: inherit;
+        margin-top: 20px;
+        padding: 6px 12px;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .form-container-confirmation-message{
+    margin-top: 200px;
+    color: $brand-primary;
+    text-align: left;
+
+    h2{
+      margin-top: 0;
+    }
+
+    .icon-check{
+      margin-top: 6px;
+      display: inline-block;
+      padding: 12px;
+      border: 5px solid $brand-primary;
+      border-radius: 100%;
+    }
+
+  }
+
+  .wpcf7-validation-errors{
+    border-color: $brand-error;
+    background-color: $brand-error;
+    color: $brand-white;
+  }
+
+  .wpcf7-not-valid{
+    border: 2px solid $brand-error;
+  }
+}
+
+.contact-infos {
+  padding: 65px 0 70px 30px;
+
+  h3 {
+    margin-bottom: 30px;
+  }
+
+  @media screen and($until: $md) {
+    padding: 70px 0;
+  }
+}
+
+.transport-infos {
+  padding: 70px 0 110px 30px;
+  background-color: $brand-graydark;
+  color: $brand-white;
+
+  @media screen and($from: $lg) {
+    min-height: 1260px;
+  }
+
+  @media screen and($until: $md) {
+    padding: 70px 0;
+  }
+
+  h3 {
+    color: $brand-white;
+  }
+
+  img {
+    margin: 45px auto 30px auto;
+  }
+}

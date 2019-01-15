@@ -1,0 +1,243 @@
+@font-face {
+    font-family: PublicatSans-light;
+    src: url(../../fonts/PublicaSans-Light.ttf), url(../../fonts/PublicaSans-Light.otf);
+}
+
+@font-face {
+    font-family: PublicatSans-extralight;
+    src: url(../../fonts/PublicaSans-ExtraLight.ttf), url(../../fonts/PublicaSans-ExtraLight.otf);
+}
+
+@font-face {
+    font-family: PublicatSans-bold;
+    src: url(../../fonts/PublicaSans-Bold.ttf), url(../../fonts/PublicaSans-Bold.otf);
+}
+
+body {
+    font-size: 18px;
+    font-weight: 300;
+    // -webkit-font-smoothing: antialiased;
+}
+
+input.wpcf7-form-control,
+textarea.wpcf7-form-control {
+    @extend .form-control;
+}
+
+h2, .h2 {
+    margin-bottom: 30px;
+    font-family: $font-family-publica-extralight;
+    font-size: 50px;
+}
+
+h3, .h3 {
+    margin-top: 0;
+    font-family: $font-family-publica-bold;
+    font-size: 32px;
+    color: $brand-primary;
+}
+
+a:hover,
+a:active,
+a:focus {
+    outline: 0;
+}
+
+::selection {
+    background-color: $brand-primary-alterne;
+    color: $brand-white;
+}
+
+.container-productversion-cta {
+    margin: 30px 0;
+    padding: 16px 0;
+    background-color: $text-color;
+    color: $brand-white;
+    font-family: $font-family-publica-bold;
+    font-size: 40px;
+    line-height: 1;
+    p {
+        margin-bottom: 0;
+    }
+    .btn {
+        position: relative;
+        margin: 0;
+        display: inline-block;
+    }
+    strong {
+        color: $brand-primary;
+    }
+    .x-column {
+        text-align: center;
+        >* {
+            display: inline-block;
+            padding: 0 15px;
+            vertical-align: middle;
+        }
+    }
+}
+
+#btn-scroll-top-page {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: block;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    background-color: $brand-black;
+    color: $brand-white;
+    z-index: 999;
+    transition: all 500ms;
+    span {
+        position: relative;
+        display: inline-block;
+        top: 0;
+        transform: rotate(-90deg);
+        transition: top 500ms;
+    }
+    &:hover {
+        background-color: $brand-primary-alterne;
+        span {
+            top: -10px;
+            animation: btn-scroll-top-page-anim 1s forwards infinite;
+        }
+    }
+    &.is-hidden {
+        bottom: -52px;
+    }
+    @keyframes btn-scroll-top-page-anim {
+        0% {
+            top: 0px
+        }
+        50% {
+            top: -10px
+        }
+        100% {
+            top: 0px
+        }
+    }
+}
+
+.site-wrap {
+    position: relative;
+    overflow-x: hidden;
+    // overflow-y: hidden;
+}
+
+.btn-link {
+    padding: 0;
+    border: 0;
+}
+
+.post-image-wrapper {
+    position: relative;
+
+    @media screen and($until: $lg) {
+        margin-bottom: 15px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    a.icon-play {
+        &:before {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+            left: 0;
+            right: 0;
+            width: 100%;
+            color: $brand-white;
+            font-size: 50px;
+            transition: 200ms;
+        }
+        &:hover {
+            text-decoration: none;
+            &:before {
+                color: $brand-primary;
+            }
+        }
+    }
+}
+
+.container-overlapped {
+    margin-top: -315px;
+    min-height: 315px;
+    position: relative;
+    @media screen and($until: $lg) {
+        margin-top: -100px;
+    }
+}
+
+.container-video {
+    width: 970px;
+    margin-bottom: 50px;
+    text-align: center;
+    @media screen and($until: $lg) {
+        width: auto;
+    }
+    p {
+        margin-bottom: 50px;
+    }
+}
+
+.textwidget {
+    @include clearfix();
+}
+
+.container-video p {
+    margin-top: 55px;
+}
+
+.container-video iframe,
+.container-video object,
+.container-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container-video img,
+.container-video iframe,
+.container-video object,
+.container-video embed {
+    max-width: 100%;
+}
+
+.page-anchor {
+    position: relative;
+    top: -100px;
+    display: block;
+
+    @media screen and($until: 830px) {
+        top: -60px;
+    }
+}
+
+@media print { 
+  a[href]:after {
+      content: none !important;
+  }
+
+  header {
+      position: relative !important;
+
+      &.fixed {
+          border-color: #fff;
+      }
+  }
+
+  .x-section {
+      margin-top: 0px !important;
+  }
+
+  header .toggle {
+      display: none;
+  }
+}

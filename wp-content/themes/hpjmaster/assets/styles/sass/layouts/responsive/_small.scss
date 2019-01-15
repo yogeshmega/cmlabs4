@@ -1,0 +1,167 @@
+@media screen and (max-width: 991px) {
+    [class*="col-"] {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .display-table,
+    .display-table-cell {
+        display: block !important;
+    }
+    .display-table-cell {
+        //float: left !important;
+    }
+    .display-table-cell .txt-content {
+        max-width: inherit;
+        margin-top: 60px;
+    }
+    footer .footer-infolettre {
+        clear: both;
+        padding-top: 70px;
+    }
+    footer {
+        [class*="col-"] {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+    }
+    // PRODUCT HOMEPAGE
+    .producthomepage {
+        h2 {
+            text-align: center;
+        }
+        h2+p {
+            text-align: center;
+        }
+        .container-boxes-col,
+        .container-applications-col {
+            margin-bottom: 80px;
+        }
+        .container-features .row-header {
+            text-align: center;
+        }
+    }
+    .producthomepage {
+        #cs-content {
+            .img-product-homepage {
+                animation: none;
+                position: static;
+                transform: none;
+                display: block;
+                margin: auto;
+                left: 0;
+                margin-top: 0;
+            }
+        }
+    }
+    .producthomepage .container-fluid-features {
+        .row-flex {
+            display: block;
+        }
+        .col-container-feature:nth-child(odd) .container-feature .container-feature-mask,
+        .col-container-feature:nth-child(even) .container-feature .container-feature-mask {
+            width: 100%;
+            margin-left: 0;
+            left: 0;
+        }
+        .col-container-feature:nth-child(odd) .container-feature .container-feature-mask:after,
+        .col-container-feature:nth-child(even) .container-feature .container-feature-mask:after {
+            left: auto;
+            right: 0;
+            transform-origin: 100% 100%;
+        }
+        .col-container-feature:nth-child(odd) .container-feature.active .container-feature-content,
+        .col-container-feature:nth-child(even) .container-feature.active .container-feature-content {
+            left: 0;
+            right: auto;
+        }
+        .col-container-feature:nth-child(odd) .container-feature.active .container-feature-content .container-feature-content-txt,
+        .col-container-feature:nth-child(even) .container-feature.active .container-feature-content .container-feature-content-txt {
+            width: auto;
+            padding: 0 30px 0 45px;
+            text-align: left;
+        }
+    }
+    .producthomepage .subbanner-content .subbanner-content {
+        padding-left: 0;
+        animation: 0s;
+        position: static;
+    }
+    .container-boxes {
+        h2 {
+            text-align: center;
+        }
+    }
+    .producthomepage .container-use-cases {
+        h3 {
+            margin-top: 24px;
+        }
+        .img-responsive {
+            width: 100%;
+        }
+    }
+    .page-template-template-applications,
+    .page-template-template-features {
+        .page-header {
+            margin-bottom: 0;
+            h1 {
+                line-height: 46px;
+                padding: 0;
+            }
+        }
+        .container-features-subheader {
+            margin-top: -1px;
+        }
+        .display-table-cell .txt-content {
+            margin-top: 0;
+            padding-top: 20px;
+            padding-bottom: 40px;
+            text-align: center;
+        }
+        .container-subfeatures {
+            padding-bottom: 15px;
+            .subfeatures-header {
+                margin-top: 0;
+            }
+            img.img-responsive {
+                margin-top: 20px;
+            }
+            .row.alternate-order {
+                margin-top: 30px !important;
+                &:first-child {
+                    margin-top: 0!important;
+                }
+                .col-content-left,
+                .col-content-right {
+                    float: none !important;
+                    margin-left: 0 !important;
+                    margin-right: 0 !important;
+                    margin-top: 30px;
+                    width: 100% !important;
+                }
+            }
+        }
+        .container-boxes-col {
+            margin-bottom: 80px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    footer {
+        .footer-infolettre {
+            .input-group {
+                width: 50%;
+            }
+        }
+    }
+    .x-column.x-sm {
+        width: 100% !important;
+    }
+     :root {
+        #cs-content {
+            .x-img {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,198 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: User Last Visit\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/plugins/plugin-name\n"
+"POT-Creation-Date: 2015-06-01 01:07+0300\n"
+"PO-Revision-Date: 2015-06-01 01:07+0300\n"
+"Last-Translator: Rija Rajaonah <rajaonah.rija@gmail.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"esc_attr_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/functions.php:37
+msgid "year"
+msgstr ""
+
+#: includes/functions.php:38
+msgid "years"
+msgstr ""
+
+#: includes/functions.php:43
+msgid "month"
+msgstr ""
+
+#: includes/functions.php:44
+msgid "months"
+msgstr ""
+
+#: includes/functions.php:49
+msgid "day"
+msgstr ""
+
+#: includes/functions.php:50
+msgid "days"
+msgstr ""
+
+#: includes/functions.php:55
+msgid "hour"
+msgstr ""
+
+#: includes/functions.php:56
+msgid "hours"
+msgstr ""
+
+#: includes/functions.php:61
+msgid "minute"
+msgstr ""
+
+#: includes/functions.php:62
+msgid "minutes"
+msgstr ""
+
+#: includes/functions.php:67
+msgid "second"
+msgstr ""
+
+#: includes/functions.php:68
+msgid "seconds"
+msgstr ""
+
+#: includes/functions.php:88
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: includes/functions.php:92
+msgid "Keep record of user last visit time based on user id and login status"
+msgstr ""
+
+#: includes/ulv-admin.class.php:35
+msgid "Last Visit"
+msgstr ""
+
+#: includes/ulv-admin.class.php:55
+msgid "Unknown"
+msgstr ""
+
+#: includes/ulv-admin.class.php:60
+msgid "record disabled"
+msgstr ""
+
+#: includes/ulv-admin.class.php:65
+msgid "excluded (role)"
+msgstr ""
+
+#: includes/ulv-admin.class.php:70
+msgid "excluded (individual)"
+msgstr ""
+
+#: includes/ulv-admin.class.php:113 views/admin-page.php:38
+msgid "exclude"
+msgstr ""
+
+#: includes/ulv-admin.class.php:114 views/admin-page.php:47
+#: views/admin-page.php:86
+msgid "cancel"
+msgstr ""
+
+#: includes/ulv-admin.class.php:216 includes/ulv-admin.class.php:217
+msgid "User Last Visit"
+msgstr ""
+
+#: includes/ulv-ajax-cb.php:29
+msgid "Login"
+msgstr ""
+
+#: includes/ulv-ajax-cb.php:33
+msgid "Email"
+msgstr ""
+
+#: includes/ulv-ajax-cb.php:34
+msgid "not defined"
+msgstr ""
+
+#: includes/ulv-ajax-cb.php:47
+msgid "Role"
+msgstr ""
+
+#: includes/ulv-ajax-cb.php:55
+msgid "Exclude"
+msgstr ""
+
+#: views/admin-page.php:2
+msgid "Last visit record settings"
+msgstr ""
+
+#: views/admin-page.php:8
+msgid "General record exclusion (not user dependant) "
+msgstr ""
+
+#: views/admin-page.php:10
+msgid "Enable recording"
+msgstr ""
+
+#: views/admin-page.php:12
+msgid "Un-check to disable absolutely all recording."
+msgstr ""
+
+#: views/admin-page.php:15
+msgid "Exclude back office"
+msgstr ""
+
+#: views/admin-page.php:17
+#, php-format
+msgid ""
+"Check to disable recording for every administrative page ( anything under "
+"\"%s\" )."
+msgstr ""
+
+#: views/admin-page.php:20
+msgid "User role exclusion"
+msgstr ""
+
+#: views/admin-page.php:24
+msgid "Existing roles"
+msgstr ""
+
+#: views/admin-page.php:25
+msgid "Do not record for these roles"
+msgstr ""
+
+#: views/admin-page.php:57
+msgid "Individual user exclusion"
+msgstr ""
+
+#: views/admin-page.php:61
+msgid "Existing users"
+msgstr ""
+
+#: views/admin-page.php:62
+msgid "Do not record for these users (login)"
+msgstr ""
+
+#: views/admin-page.php:69
+msgid "Search user <em>(login)</em>"
+msgstr ""
+
+#: views/admin-page.php:69
+msgid "No user found"
+msgstr ""
+
+#: views/admin-page.php:71
+msgid "Search for an user by typing its login"
+msgstr ""
+
+#: views/admin-page.php:97
+msgid "Save settings"
+msgstr ""

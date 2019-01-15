@@ -1,0 +1,144 @@
+.page-header {
+    border: none;
+    $video-height: 39.9vw;
+    height: 412px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-top: $menu-height;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    &.has-video {
+        height: auto;
+        z-index: 0;
+    }
+
+    &.page-header-video {
+        background-color: $text-color;
+        height: 570px;
+
+        @media screen and($until: $lg) {
+            height: 275px;
+        }
+
+        .container {
+            top: 30%;
+        }
+    }
+    video {
+        position: absolute;
+        width: 100%;
+        min-height: $video-height;
+        z-index: -1;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .video-loading-container {
+        background: $brand-primary;
+        transition: all 500ms;
+        opacity: 1;
+        &.is-hidden {
+            opacity: 0;
+        }
+    }
+    .video-loading-icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: inline-block;
+        transform: translate(-50%, -50%);
+        transform-origin: 0 0;
+        opacity: 0.75;
+        animation: video-loading-icon-anim 2s linear infinite;
+        &.is-hidden {
+            opacity: 0;
+        }
+        @keyframes video-loading-icon-anim {
+            0% {
+                transform: rotate(0deg) translate(-50%, -50%);
+            }
+            100% {
+                transform: rotate(360deg) translate(-50%, -50%);
+            }
+        }
+    }
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .btn.btn-default {
+        margin-top: 36px;
+    }
+    h1 {
+        margin-bottom: 24px;
+        font-family: $font-family-publica-extralight;
+        font-size: 40px;
+        line-height: 60px;
+        strong {
+            display: block;
+            font-size: 60px;
+            font-family: $font-family-publica-bold;
+        }
+
+        &.large {
+            font-size: 60px;
+        }
+    }
+    h2 {
+        font-family: $font-family-base;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .more-info {
+        margin-top: 50px;
+    }
+    &.solutions-header {
+        h1 {
+            font-size: 60px;
+        }
+    }
+    &.big-header {
+        height: 40vw;
+        max-height: 580px;
+        @media screen and(max-width: 768px) {
+            height: auto;
+            .vertical-middle {
+                top: 0;
+                transform: translateY(0);
+            }
+        }
+    }
+    p {
+        margin-bottom: 20px;
+    }
+    .btn {
+        margin: 0 5px;
+    }
+}
+
+.overlay {
+    position: relative;
+    &:after {
+        content: "";
+        display: block !important;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        z-index: 0;
+        opacity: 0.5;
+        z-index: 1;
+        background: linear-gradient(45deg, $brand-primary 0%, rgba(255, 255, 255, 0) 100%);
+    }
+}
+
+.vertical-middle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}

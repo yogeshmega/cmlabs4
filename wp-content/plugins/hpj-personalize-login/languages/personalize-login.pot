@@ -1,0 +1,248 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-17 17:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: personalize-login.php:61 templates/login_form.php:65
+#: templates/login_form.php:87
+msgid "Log in"
+msgstr ""
+
+#: personalize-login.php:65
+msgid "Your Account"
+msgstr ""
+
+#: personalize-login.php:69 templates/register_form.php:74
+msgid "Register"
+msgstr ""
+
+#: personalize-login.php:73 templates/password_lost_form.php:3
+msgid "Forgot Your Password?"
+msgstr ""
+
+#: personalize-login.php:77 templates/password_reset_form.php:3
+msgid "Pick a New Password"
+msgstr ""
+
+#: personalize-login.php:274 personalize-login.php:328
+#: personalize-login.php:363 personalize-login.php:393
+msgid "You are already signed in."
+msgstr ""
+
+#: personalize-login.php:330 personalize-login.php:797
+msgid ""
+"We're sorry, we cannot create your account right now. Please try again later."
+msgstr ""
+
+#: personalize-login.php:412
+msgid "Invalid password reset link."
+msgstr ""
+
+#: personalize-login.php:611
+msgid "Hello!"
+msgstr ""
+
+#: personalize-login.php:612
+#, php-format
+msgid "You asked us to reset the password for your account %s."
+msgstr ""
+
+#: personalize-login.php:613
+msgid ""
+"If this was a mistake, or you didn't ask for a password reset, just ignore "
+"this email and nothing will happen."
+msgstr ""
+
+#: personalize-login.php:614
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: personalize-login.php:616
+msgid "Thanks!"
+msgstr ""
+
+#: personalize-login.php:761 personalize-login.php:782
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: personalize-login.php:764
+msgid "Please enter a password."
+msgstr ""
+
+#: personalize-login.php:767 personalize-login.php:773
+msgid "The email or password you entered is incorrect."
+msgstr ""
+
+#: personalize-login.php:785
+msgid "An account exists with this email address."
+msgstr ""
+
+#: personalize-login.php:788
+msgid "Please enter your password."
+msgstr ""
+
+#: personalize-login.php:791 personalize-login.php:821
+#: personalize-login.php:824
+msgid "Passwords require a minimum of 6 characters."
+msgstr ""
+
+#: personalize-login.php:794 personalize-login.php:818
+msgid "The two passwords you entered don't match."
+msgstr ""
+
+#: personalize-login.php:800
+msgid "The Google reCAPTCHA check failed. Are you a robot?"
+msgstr ""
+
+#: personalize-login.php:805
+msgid "Please enter your email address to continue."
+msgstr ""
+
+#: personalize-login.php:809
+msgid "There are no users registered with this email address."
+msgstr ""
+
+#: personalize-login.php:815
+msgid "The password reset link you used has expired."
+msgstr ""
+
+#: personalize-login.php:830
+msgid ""
+"We're sorry, we cannot reset your password right now. Please try again later."
+msgstr ""
+
+#: personalize-login.php:848
+msgid "reCAPTCHA site key"
+msgstr ""
+
+#: personalize-login.php:855
+msgid "reCAPTCHA secret key"
+msgstr ""
+
+#: templates/login_form.php:4
+msgid "Log in to continue"
+msgstr ""
+
+#: templates/login_form.php:7 templates/register_form.php:6
+msgid "account"
+msgstr ""
+
+#: templates/login_form.php:27
+msgid "You have signed out. Would you like to log in again?"
+msgstr ""
+
+#: templates/login_form.php:35
+#, php-format
+msgid ""
+"You have successfully registered to <strong>%s</strong>. We have emailed "
+"your the confirmation link to the email address you entered."
+msgstr ""
+
+#: templates/login_form.php:44
+msgid "Check your email for a link to reset your password."
+msgstr ""
+
+#: templates/login_form.php:50
+msgid "Your password has been updated. You can log in now."
+msgstr ""
+
+#: templates/login_form.php:57 templates/login_form.php:79
+#: templates/password_lost_form.php:25 templates/register_form.php:25
+msgid "Email"
+msgstr ""
+
+#: templates/login_form.php:61 templates/login_form.php:83
+#: templates/register_form.php:45
+msgid "Password"
+msgstr ""
+
+#: templates/login_form.php:66
+msgid "register"
+msgstr ""
+
+#: templates/login_form.php:66
+msgid "Create account"
+msgstr ""
+
+#: templates/login_form.php:67
+msgid "password-lost"
+msgstr ""
+
+#: templates/login_form.php:68
+msgid "Forgot your password?"
+msgstr ""
+
+#: templates/password_lost_form.php:16
+msgid ""
+"Enter your email address and we'll send you a link you can use to pick a new "
+"password."
+msgstr ""
+
+#: templates/password_lost_form.php:30
+msgid "Reset Password"
+msgstr ""
+
+#: templates/password_reset_form.php:19
+msgid "New password"
+msgstr ""
+
+#: templates/password_reset_form.php:23
+msgid "Repeat new password"
+msgstr ""
+
+#: templates/password_reset_form.php:31
+msgid "Update Password"
+msgstr ""
+
+#: templates/register_form.php:3
+msgid "Sign up to Vortex studio"
+msgstr ""
+
+#: templates/register_form.php:30
+msgid "First name"
+msgstr ""
+
+#: templates/register_form.php:35
+msgid "Last name"
+msgstr ""
+
+#: templates/register_form.php:39
+msgid "Company"
+msgstr ""
+
+#: templates/register_form.php:50
+msgid "Repeat Password"
+msgstr ""
+
+#: templates/register_form.php:56
+msgid ""
+"Note: Your password will be generated automatically and emailed to the "
+"address you specify above."
+msgstr ""
+
+#: templates/register_form.php:68
+msgid "Subscribe to our newsletter"
+msgstr ""
+
+#: templates/register_form.php:76
+msgid "Already have an account ?"
+msgstr ""
+
+#. Name of the plugin
+msgid "Personalize Login"
+msgstr ""
+
+#. Description of the plugin
+msgid "A plugin that replaces the WordPress login flow with a custom page."
+msgstr ""

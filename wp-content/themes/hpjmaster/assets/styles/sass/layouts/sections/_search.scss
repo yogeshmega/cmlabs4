@@ -1,0 +1,29 @@
+.search, .error404{
+
+  footer{
+    margin-top: 60px;
+  }
+
+}
+
+.search-results{
+
+  h2 a{
+    font-size: 32px;
+    font-family: $font-family-publica-bold;
+    transition: all 500ms;
+    text-decoration: none;
+    &:hover{
+      color: $text-color;
+    }
+  }
+
+  h3{
+    font-size: 18px;
+  }
+
+  .entry-summary{
+    padding-left: 32px;
+  }
+
+}

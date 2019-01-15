@@ -1,0 +1,31 @@
+.sidebar-green {
+  
+  h3 {
+    margin-top: 20px;
+  }
+
+  color: $brand-primary;
+  padding-left: 30px;
+  border-left: 4px solid $brand-primary;
+  max-width: 340px;
+  margin: 0 auto;
+
+  @media screen and($until: $lg) {
+    max-width: 100%;
+  }
+}
+
+.team-text {
+  h4 {
+    line-height: 0.7;
+
+    .small {
+      font-size: 12px;
+      color: $brand-graydark;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+}

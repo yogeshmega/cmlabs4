@@ -1,0 +1,57 @@
+/**
+ * 	Plugin Name: User Last Visit
+ *
+ *  User Last Visit plugin for WordPress, Copyright (C) 2015 Rija Rajaonah
+ *  User Last Visit plugin for WordPress is licensed under the GPL License version 2 or later.
+ *  [http://www.gnu.org/licenses/gpl-2.0.txt]
+ */
+
+#ulv-settings .ulv-action {
+    color: #a20;
+    cursor: pointer;
+    margin-left: 15px;
+    padding: 2px 5px;
+	-webkit-transition-property: background-color;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-property: background-color;
+	-moz-transition-duration: 0.3s;
+	transition-property: 0.3s background-color;
+    background-color: transparent;
+}
+
+#ulv-settings .ulv-action.muted {
+    background-color: #e8e8e8;
+    cursor: text;
+}
+
+#ulv-settings .ulv-action:hover {
+    background-color: #e5e5ff;
+}
+
+#ulv-settings .ulv-action.muted:hover {
+    background-color: #e8e8e8;
+}
+
+#ulv-settings #pick-user {
+    font-size: 1.2em;
+    padding: 4px;
+}
+
+#ulv-settings #user-preview {
+    min-height: 150px;
+}
+
+#ulv-settings #no-result {
+    margin-left: 2em;
+    color: red;
+}
+
+.ui-autocomplete .ui-menu-item {
+    cursor: pointer;
+    padding: 4px;
+}
+
+.ui-autocomplete .ui-menu-item:hover {
+    background-color: #fff;
+}
+

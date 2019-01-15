@@ -1,0 +1,17 @@
+#pdf-icon, #mpg-icon, #Apps-Package-icon, #doc-icon, #xls-icon, #ppt-icon {
+	cursor: pointer;
+}
+
+.wpdm_cml_icons {
+	float: left;
+	width: 40px;
+	height: 40px;
+}
+
+.wpdm_cml_icon_selected {
+	background-color: #666;
+}
+
+.wpdm_cml_icons img {
+	padding: 4px;	
+}

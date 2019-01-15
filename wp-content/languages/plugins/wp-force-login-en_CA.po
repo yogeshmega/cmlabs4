@@ -1,0 +1,44 @@
+# Translation of Plugins - Force Login - Stable (latest release) in English (Canada)
+# This file is distributed under the same license as the Plugins - Force Login - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-07-04 18:07:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_CA\n"
+"Project-Id-Version: Plugins - Force Login - Stable (latest release)\n"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/wp-force-login/"
+msgstr "https://en-ca.wordpress.org/plugins/wp-force-login/"
+
+#. Author of the plugin/theme
+msgid "Kevin Vess"
+msgstr "Kevin Vess"
+
+#. Author URI of the plugin/theme
+msgid "http://vess.me/"
+msgstr "http://vess.me/"
+
+#. Plugin Name of the plugin/theme
+msgid "Force Login"
+msgstr "Force Login"
+
+#. Description of the plugin/theme
+msgid "Easily hide your WordPress site from public viewing by requiring visitors to log in first. Activate to turn on."
+msgstr "Easily hide your WordPress site from public viewing by requiring visitors to log in first. Activate to turn on."
+
+#: wp-force-login.php:69
+msgid "Only authenticated users can access the REST API."
+msgstr "Only authenticated users can access the REST API."
+
+#: wp-force-login.php:54
+msgid "Error"
+msgstr "Error"
+
+#: wp-force-login.php:54
+msgid "You're not authorized to access this site."
+msgstr "You're not authorized to access this site."

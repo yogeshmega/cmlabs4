@@ -1,0 +1,38 @@
+//page contact
+.map-content {
+    width: 100%;
+    height: 400px;
+}
+
+.general-page {}
+
+// .simulation-solutions {
+
+//   #vocational-training,
+//   #port-terminal-operators,
+//   #equipment-fleet-owners,
+//   #researchers-and-engineers,
+//   #training-simulation-providers {
+//     @media screen and($until: $md) {padding: 60px 0 !important;}
+//   }
+
+// }
+
+// SECTION IN SOLUTIONS CATEGORIES
+.solution-section {
+  @media screen and($until: $md) {padding: 60px 0 !important;}
+  
+  &:nth-child(odd){background-position: left center !important;}
+  &:nth-child(even){background-position: right center !important;}
+
+  @media screen and($until: $md) {background-position: center center !important;}
+
+}
+
+// 404 PAGE
+.error404 {
+  .site-wrap {
+    padding-top: 130px;
+    @media screen and($until: $md) {padding-top: 80px;}
+  }
+}

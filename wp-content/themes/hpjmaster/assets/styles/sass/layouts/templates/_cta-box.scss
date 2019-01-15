@@ -1,0 +1,20 @@
+.cta-container {
+
+  @media screen and($until: $lg) {
+     margin-bottom: 30px;
+  }
+
+  .img-container {
+    position: relative;
+    
+    h2 {
+      background-color: rgba(0,0,0, 0.5);
+      color: $brand-white;
+      padding: 10px 25px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+  }
+}

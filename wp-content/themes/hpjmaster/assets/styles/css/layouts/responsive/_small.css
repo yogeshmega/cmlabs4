@@ -1,0 +1,122 @@
+@media screen and (max-width: 991px) {
+  [class*="col-"] {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .display-table, .display-table-cell {
+    display: block !important;
+  }
+  .display-table-cell .txt-content {
+    max-width: inherit;
+    margin-top: 60px;
+  }
+  footer .footer-infolettre {
+    clear: both;
+    padding-top: 70px;
+  }
+  .row.alternate-order:nth-child(even) .col-content-left {
+    float: none;
+  }
+  .page-template-template-producthomepage h2 {
+    text-align: center;
+  }
+  .page-template-template-producthomepage h2 + p {
+    text-align: center;
+  }
+  .page-template-template-producthomepage .container-boxes-col, .page-template-template-producthomepage .container-applications-col {
+    margin-bottom: 80px;
+  }
+  .page-template-template-producthomepage .container-features .row-header {
+    text-align: center;
+  }
+  .page-template-template-producthomepage .img-product-homepage {
+    -webkit-animation: none;
+            animation: none;
+    position: static;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+    display: block;
+    margin: auto;
+  }
+  .page-template-template-producthomepage .container-fluid-features .row-flex {
+    display: block;
+  }
+  .page-template-template-producthomepage .container-fluid-features .col-container-feature:nth-child(odd) .container-feature .container-feature-mask,
+  .page-template-template-producthomepage .container-fluid-features .col-container-feature:nth-child(even) .container-feature .container-feature-mask {
+    width: 100%;
+    margin-left: 0;
+    left: 0;
+  }
+  .page-template-template-producthomepage .container-fluid-features .col-container-feature:nth-child(odd) .container-feature .container-feature-mask:after,
+  .page-template-template-producthomepage .container-fluid-features .col-container-feature:nth-child(even) .container-feature .container-feature-mask:after {
+    left: auto;
+    right: 0;
+    -webkit-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+  }
+  .page-template-template-producthomepage .container-fluid-features .col-container-feature:nth-child(odd) .container-feature.active .container-feature-content,
+  .page-template-template-producthomepage .container-fluid-features .col-container-feature:nth-child(even) .container-feature.active .container-feature-content {
+    left: 0;
+    right: auto;
+  }
+  .page-template-template-producthomepage .container-fluid-features .col-container-feature:nth-child(odd) .container-feature.active .container-feature-content .container-feature-content-txt,
+  .page-template-template-producthomepage .container-fluid-features .col-container-feature:nth-child(even) .container-feature.active .container-feature-content .container-feature-content-txt {
+    width: auto;
+    padding: 0 30px 0 45px;
+    text-align: left;
+  }
+  .page-template-template-producthomepage .subbanner-content .subbanner-content {
+    padding-left: 0;
+    -webkit-animation: 0s;
+            animation: 0s;
+    position: static;
+  }
+  .container-boxes h2 {
+    text-align: center;
+  }
+  .page-template-template-producthomepage .container-use-cases h3 {
+    margin-top: 24px;
+  }
+  .page-template-template-producthomepage .container-use-cases .img-responsive {
+    width: 100%;
+  }
+  .page-template-template-applications .page-header,
+  .page-template-template-features .page-header {
+    margin-bottom: 0;
+  }
+  .page-template-template-applications .page-header h1,
+  .page-template-template-features .page-header h1 {
+    line-height: 46px;
+    padding: 0;
+  }
+  .page-template-template-applications .container-features-subheader,
+  .page-template-template-features .container-features-subheader {
+    margin-top: -1px;
+  }
+  .page-template-template-applications .display-table-cell .txt-content,
+  .page-template-template-features .display-table-cell .txt-content {
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  .page-template-template-applications .container-subfeatures,
+  .page-template-template-features .container-subfeatures {
+    padding-bottom: 15px;
+  }
+  .page-template-template-applications .container-subfeatures .subfeatures-header,
+  .page-template-template-features .container-subfeatures .subfeatures-header {
+    margin-top: 0;
+  }
+  .page-template-template-applications .container-subfeatures img.img-responsive,
+  .page-template-template-features .container-subfeatures img.img-responsive {
+    margin-top: 20px;
+  }
+  footer .footer-infolettre .input-group {
+    width: 50%;
+  }
+}
+
+/*# sourceMappingURL=_small.css.map */

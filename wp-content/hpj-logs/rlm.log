@@ -1,0 +1,196 @@
+[25.09.2017 - 13:00:38][NOTICE] - New Hpj_CMLabs_RLM_Wrapper
+[25.09.2017 - 13:00:38][NOTICE] - Hpj_CMLabs_License_Model::getUserActivationKeyFromDB -- key: 
+[25.09.2017 - 13:31:35][NOTICE] - New Hpj_CMLabs_RLM_Wrapper
+[25.09.2017 - 13:31:35][NOTICE] - Hpj_CMLabs_License_Model::getUserActivationKeyFromDB -- key: 
+[25.09.2017 - 13:31:35][NOTICE] - Hpj_CMLabs_License_Model::getLicenseFile
+[25.09.2017 - 13:31:35][NOTICE] - Hpj_CMLabs_License_Model::getLicenseFile - akey=7153-2887-1878-1102 hostid=pasfkjdsjgfkl
+[25.09.2017 - 13:31:36][NOTICE] - Hpj_CMLabs_License_Model::getLicenseFile - response=<html><body><h3>Error creating license. status=-1007</h3><h5>Activation - Invalid hostid type</h5>RLM Activation Pro server version 12.1BL2 (actver=12.1BL2)
+<h3>License created:</h3><pre>44</pre><h5>Cut and paste this license into your license file</h5></h5></body></html>
+[25.09.2017 - 13:35:27][NOTICE] - New Hpj_CMLabs_RLM_Wrapper
+[25.09.2017 - 13:35:27][NOTICE] - Hpj_CMLabs_License_Model::getUserActivationKeyFromDB -- key: 
+[25.09.2017 - 13:35:27][NOTICE] - Hpj_CMLabs_License_Model::getLicenseFile
+[25.09.2017 - 13:35:27][NOTICE] - Hpj_CMLabs_License_Model::getLicenseFile - akey=7153-2887-1878-1102 hostid=patat
+[25.09.2017 - 13:35:27][NOTICE] - Hpj_CMLabs_License_Model::getLicenseFile - response=<html><body><h3>Error creating license. status=-1007</h3><h5>Activation - Invalid hostid type</h5>RLM Activation Pro server version 12.1BL2 (actver=12.1BL2)
+<h3>License created:</h3><pre>44</pre><h5>Cut and paste this license into your license file</h5></h5></body></html>
+[25.09.2017 - 13:35:45][NOTICE] - New Hpj_CMLabs_RLM_Wrapper
+[25.09.2017 - 13:35:45][NOTICE] - Hpj_CMLabs_License_Model::getUserActivationKeyFromDB -- key: 
+[25.09.2017 - 13:35:45][NOTICE] - Hpj_CMLabs_License_Model::getLicenseFile
+[25.09.2017 - 13:35:45][NOTICE] - Hpj_CMLabs_License_Model::getLicenseFile - akey=7153-2887-1878-1102 hostid=123456789012
+[25.09.2017 - 13:35:46][NOTICE] - Hpj_CMLabs_License_Model::getLicenseFile - response=<html><body><h3>License created:</h3><pre>LICENSE cmlabs studio_limited_1 2018.09 25-sep-2018 uncounted
+  hostid=123456789012 share=h issuer=hostedactivation
+  issued=25-sep-2017 akey=7153-2887-1878-1102 options="n=Vortex
+   Studio Essentials Edition" _ck=1746433bce sig="60PG451Q2P7EP31RPN9
+  5BPY5XTN6RN6X2J092Q022M08TKFJ28K4261FBQK8QGJCV1JE6EBWNYJG"
+LICENSE cmlabs studio_limited_2 2018.09 25-sep-2018 uncounted
+  hostid=123456789012 share=h issuer=hostedactivation
+  issued=25-sep-2017 akey=7153-2887-1878-1102 options="n=Vortex
+   Studio Essentials Edition" _ck=1846439cd6 sig="60PG4580KXK2HMGF2GW
+  PRFPA5N6FT3UHBY3YAJ7N08A2MH3S47H1BJH5KENM7HGWQA332753NFQ0"
+LICENSE cmlabs editor 2018.09 25-sep-2018 uncounted
+  hostid=123456789012 share=h issuer=hostedactivation
+  issued=25-sep-2017 akey=7153-2887-1878-1102 options="n=Vortex
+   Studio Editor" _ck=2f468315d3 sig="60P04523125N0R45RP2QWBSTJSBRXEQ
+  NU96JDF822G7ES72BRAC3EY60TT30UMJ4JUG8SNCVGR"
+</pre><h5>Cut and paste this license into your license file</h5></h5></body></html>
+[25.09.2017 - 13:36:05][NOTICE] - New Hpj_CMLabs_RLM_Wrapper
+[25.09.2017 - 13:36:05][NOTICE] - Hpj_CMLabs_License_Model::getUserActivationKeyFromDB -- key: 
+[25.09.2017 - 13:36:05][NOTICE] - Hpj_CMLabs_License_Model::getLicenseFile
+[25.09.2017 - 13:36:05][NOTICE] - Hpj_CMLabs_License_Model::getLicenseFile - akey=7153-2887-1878-1102 hostid=123456789012
+[25.09.2017 - 13:36:05][NOTICE] - Hpj_CMLabs_License_Model::getLicenseFile - response=<html><body><h3>License created by prior activation:</h3><pre>LICENSE cmlabs studio_limited_1 2018.09 25-sep-2018 uncounted
+  hostid=123456789012 share=h issuer=hostedactivation
+  issued=25-sep-2017 akey=7153-2887-1878-1102 options="n=Vortex
+   Studio Essentials Edition" _ck=1746433bce sig="60PG451Q2P7EP31RPN9
+  5BPY5XTN6RN6X2J092Q022M08TKFJ28K4261FBQK8QGJCV1JE6EBWNYJG"
+LICENSE cmlabs studio_limited_2 2018.09 25-sep-2018 uncounted
+  hostid=123456789012 share=h issuer=hostedactivation
+  issued=25-sep-2017 akey=7153-2887-1878-1102 options="n=Vortex
+   Studio Essentials Edition" _ck=1846439cd6 sig="60PG4580KXK2HMGF2GW
+  PRFPA5N6FT3UHBY3YAJ7N08A2MH3S47H1BJH5KENM7HGWQA332753NFQ0"
+LICENSE cmlabs editor 2018.09 25-sep-2018 uncounted
+  hostid=123456789012 share=h issuer=hostedactivation
+  issued=25-sep-2017 akey=7153-2887-1878-1102 options="n=Vortex
+   Studio Editor" _ck=2f468315d3 sig="60P04523125N0R45RP2QWBSTJSBRXEQ
+  NU96JDF822G7ES72BRAC3EY60TT30UMJ4JUG8SNCVGR"
+</pre><h5>Cut and paste this license into your license file</h5></h5></body></html>
+[20.04.2018 - 15:31:01][NOTICE] - New Hpj_CMLabs_RLM_Wrapper
+[20.04.2018 - 15:31:01][NOTICE] - Hpj_CMLabs_RLM_Wrapper::doRequest https://hostedactivation.com/cmlabs/actpro_web_serv.php get Array
+(
+    [header] => Array
+        (
+            [user] => webserver
+            [password] => a65857fd5c828d964ac8b5c05d55ecaa
+            [table] => keyd
+            [sql_where] => akey IN ("5485-1768-0652-2692","6609-1306-9990-6347","3586-1779-1403-5666","7015-2422-7137-6765","6472-3172-7432-6908","1115-4102-1166-9675","0892-4102-7776-5998","3743-5228-9121-0431","0368-8189-3536-3650","2224-1558-2420-7091")
+        )
+
+)
+
+[20.04.2018 - 15:31:01][NOTICE] - Hpj_CMLabs_RLM_Wrapper::doRequest https://hostedactivation.com/cmlabs/actpro_web_serv.php get Array
+(
+    [header] => Array
+        (
+            [user] => webserver
+            [password] => a65857fd5c828d964ac8b5c05d55ecaa
+            [table] => licf
+            [sql_where] => akey IN ("5485-1768-0652-2692","6609-1306-9990-6347","3586-1779-1403-5666","7015-2422-7137-6765","6472-3172-7432-6908","1115-4102-1166-9675","0892-4102-7776-5998","3743-5228-9121-0431","0368-8189-3536-3650","2224-1558-2420-7091")
+        )
+
+)
+
+[20.04.2018 - 15:31:01][NOTICE] - Hpj_CMLabs_RLM_Wrapper::doRequest https://hostedactivation.com/cmlabs/actpro_web_serv.php get Array
+(
+    [header] => Array
+        (
+            [user] => webserver
+            [password] => a65857fd5c828d964ac8b5c05d55ecaa
+            [table] => prod
+        )
+
+)
+
+[20.04.2018 - 15:31:01][NOTICE] - Hpj_CMLabs_RLM_Wrapper::doRequest https://hostedactivation.com/cmlabs/actpro_web_serv.php get Array
+(
+    [header] => Array
+        (
+            [user] => webserver
+            [password] => a65857fd5c828d964ac8b5c05d55ecaa
+            [table] => keyd
+            [sql_where] => akey IN ("5485-1768-0652-2692","6609-1306-9990-6347","3586-1779-1403-5666","7015-2422-7137-6765","6472-3172-7432-6908","1115-4102-1166-9675","0892-4102-7776-5998","3743-5228-9121-0431","0368-8189-3536-3650","2224-1558-2420-7091")
+        )
+
+)
+
+[20.04.2018 - 15:31:01][NOTICE] - Hpj_CMLabs_RLM_Wrapper::doRequest https://hostedactivation.com/cmlabs/actpro_web_serv.php get Array
+(
+    [header] => Array
+        (
+            [user] => webserver
+            [password] => a65857fd5c828d964ac8b5c05d55ecaa
+            [table] => licf
+            [sql_where] => akey IN ("5485-1768-0652-2692","6609-1306-9990-6347","3586-1779-1403-5666","7015-2422-7137-6765","6472-3172-7432-6908","1115-4102-1166-9675","0892-4102-7776-5998","3743-5228-9121-0431","0368-8189-3536-3650","2224-1558-2420-7091")
+        )
+
+)
+
+[20.04.2018 - 15:31:02][NOTICE] - Hpj_CMLabs_RLM_Wrapper::doRequest https://hostedactivation.com/cmlabs/actpro_web_serv.php get Array
+(
+    [header] => Array
+        (
+            [user] => webserver
+            [password] => a65857fd5c828d964ac8b5c05d55ecaa
+            [table] => prod
+        )
+
+)
+
+[20.04.2018 - 15:31:32][NOTICE] - New Hpj_CMLabs_RLM_Wrapper
+[20.04.2018 - 15:31:32][NOTICE] - Hpj_CMLabs_RLM_Wrapper::doRequest https://hostedactivation.com/cmlabs/actpro_web_serv.php get Array
+(
+    [header] => Array
+        (
+            [user] => webserver
+            [password] => a65857fd5c828d964ac8b5c05d55ecaa
+            [table] => keyd
+            [sql_where] => akey IN ("5485-1768-0652-2692","6609-1306-9990-6347","3586-1779-1403-5666","7015-2422-7137-6765","6472-3172-7432-6908","1115-4102-1166-9675","0892-4102-7776-5998","3743-5228-9121-0431","0368-8189-3536-3650","2224-1558-2420-7091")
+        )
+
+)
+
+[20.04.2018 - 15:31:32][NOTICE] - Hpj_CMLabs_RLM_Wrapper::doRequest https://hostedactivation.com/cmlabs/actpro_web_serv.php get Array
+(
+    [header] => Array
+        (
+            [user] => webserver
+            [password] => a65857fd5c828d964ac8b5c05d55ecaa
+            [table] => licf
+            [sql_where] => akey IN ("5485-1768-0652-2692","6609-1306-9990-6347","3586-1779-1403-5666","7015-2422-7137-6765","6472-3172-7432-6908","1115-4102-1166-9675","0892-4102-7776-5998","3743-5228-9121-0431","0368-8189-3536-3650","2224-1558-2420-7091")
+        )
+
+)
+
+[20.04.2018 - 15:31:32][NOTICE] - Hpj_CMLabs_RLM_Wrapper::doRequest https://hostedactivation.com/cmlabs/actpro_web_serv.php get Array
+(
+    [header] => Array
+        (
+            [user] => webserver
+            [password] => a65857fd5c828d964ac8b5c05d55ecaa
+            [table] => prod
+        )
+
+)
+
+[20.04.2018 - 15:31:33][NOTICE] - Hpj_CMLabs_RLM_Wrapper::doRequest https://hostedactivation.com/cmlabs/actpro_web_serv.php get Array
+(
+    [header] => Array
+        (
+            [user] => webserver
+            [password] => a65857fd5c828d964ac8b5c05d55ecaa
+            [table] => keyd
+            [sql_where] => akey IN ("5485-1768-0652-2692","6609-1306-9990-6347","3586-1779-1403-5666","7015-2422-7137-6765","6472-3172-7432-6908","1115-4102-1166-9675","0892-4102-7776-5998","3743-5228-9121-0431","0368-8189-3536-3650","2224-1558-2420-7091")
+        )
+
+)
+
+[20.04.2018 - 15:31:33][NOTICE] - Hpj_CMLabs_RLM_Wrapper::doRequest https://hostedactivation.com/cmlabs/actpro_web_serv.php get Array
+(
+    [header] => Array
+        (
+            [user] => webserver
+            [password] => a65857fd5c828d964ac8b5c05d55ecaa
+            [table] => licf
+            [sql_where] => akey IN ("5485-1768-0652-2692","6609-1306-9990-6347","3586-1779-1403-5666","7015-2422-7137-6765","6472-3172-7432-6908","1115-4102-1166-9675","0892-4102-7776-5998","3743-5228-9121-0431","0368-8189-3536-3650","2224-1558-2420-7091")
+        )
+
+)
+
+[20.04.2018 - 15:31:33][NOTICE] - Hpj_CMLabs_RLM_Wrapper::doRequest https://hostedactivation.com/cmlabs/actpro_web_serv.php get Array
+(
+    [header] => Array
+        (
+            [user] => webserver
+            [password] => a65857fd5c828d964ac8b5c05d55ecaa
+            [table] => prod
+        )
+
+)
+
